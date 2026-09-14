@@ -89,7 +89,7 @@ static DEFINE_SPINLOCK(ipr_driver_lock);
 /* This table describes the differences between DMA controller chips */
 static const struct ipr_chip_cfg_t ipr_chip_cfg[] = {
 	{ /* Gemstone, Citrine, Obsidian, and Obsidian-E */
-		.mailbox = 0x0042C,
+		.mailbox = 0x0043C,
 		.max_cmds = 100,
 		.cache_line_size = 0x20,
 		.clear_isr = 1,
